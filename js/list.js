@@ -33,7 +33,7 @@ function generatePokemonCard(pokemon) {
     ${pokemon.types.map(type => {
       let imgName = type.charAt().toUpperCase() + type.substring(1)
       return `<li>
-              <img src="img/icon/${imgName}.png" alt="${type}" title="${type}">
+              <img src="images/icon/${imgName}.png" alt="${type}" title="${type}">
               </li>`
     }).join("")}
     </ul>
