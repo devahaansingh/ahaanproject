@@ -70,7 +70,7 @@ function generateCard(pokemon) {
           const imgName = type.name.charAt().toUpperCase() + type.name.substr(1);
 
           return `<li style="border-color: ${typesColors[type.name]}">
-                    <img src="img/icon/${imgName}.png" alt="Normal">
+                    <img src="images/icon/${imgName}.png" alt="Normal">
                     <span style="background-color: ${typesColors[type.name]}">${type.name}</span>
                   </li>`
         }).join("")}
